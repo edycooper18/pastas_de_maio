@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Minha Loja de Desejos</title>
+</head>
+<body>
+    <hearder>
+        <h1>🛍️ Meus Desejos</h1> 
+        <button id="toggleTheme">🌙</button> 
+    </hearder>
+
+    <main class="container">
+        <form id="formDesejo" class="formulario">
+            <input type="text" id="titulo" placeholder="Nome do produto desejado" required>
+            <input type="text" id="descricao" placeholder="descrição do produto">
+            <button type="submit">Adicionar à lista</button>
+        </form>
+
+        <div id="listaDesejos" class="grade-produtos"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
